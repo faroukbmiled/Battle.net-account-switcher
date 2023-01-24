@@ -1,0 +1,1 @@
+# Battle.net-account-switcher
