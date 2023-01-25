@@ -1,0 +1,1 @@
+python C:\Users\Administrator\Battle.net-account-switcher\switcher.py
