@@ -36,6 +36,8 @@ class BattleNetSwitcher(QtWidgets.QWidget):
                 "QRadioButton { background-color: #1d1f23; color: white; font-weight: bold; padding: 10px; border-radius: 5px; } QRadioButton:hover { background-color: #6f7080; } QRadioButton:pressed { background-color: green;}")
             self.account_button_group.addButton(button)
             self.account_buttons.append(button)
+            if i == 0:
+                button.setChecked(True)
 
         self.switch_button = QtWidgets.QPushButton("Switch", self)
         self.switch_button.setStyleSheet(
